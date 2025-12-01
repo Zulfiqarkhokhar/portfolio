@@ -19,6 +19,7 @@ const Qualification = () => {
       <span className="section__subtitle">My Journey</span>
 
       <div className="qualification__container container">
+        {/* Tabs */}
         <div className="qualification__tabs">
           <div
             className={
@@ -44,7 +45,9 @@ const Qualification = () => {
           </div>
         </div>
 
+        {/* Sections */}
         <div className="qualification__sections">
+          {/* Education */}
           <div
             className={
               toggleState === 1
@@ -54,13 +57,13 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">BS Computer Science</h3>
+                <h3 className="qualification__title">BS in Computer Science</h3>
                 <span className="qualification__subtitle">
                   Sukkur IBA University
                 </span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2020 - present
+                  2020 - 2024
                 </div>
               </div>
               <div>
@@ -68,6 +71,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
+
             <div className="qualification__data">
               <div></div>
               <div>
@@ -77,31 +81,17 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">Intermediate</h3>
                 <span className="qualification__subtitle">
-                  Boys Degree Collage
+                  Boys Degree College
                 </span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2016-2017
+                  2016 - 2018
                 </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">
-                  NFTP Sukkur IBA University
-                </span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2021-2022
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
+
+          {/* Experience */}
           <div
             className={
               toggleState === 2
@@ -111,64 +101,53 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">CodSoft</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  20023
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">
-                  Java Fullstack Developer
-                </h3>
-                <span className="qualification__subtitle">Fiverr - Remote</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022 - present
-                </div>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">ReactJS Developer</h3>
-                <span className="qualification__subtitle">Fiverr - Remote</span>
-                <div className="qualification__calendar">
-                  <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022 - present
-                </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UI Designer</h3>
+                <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
-                  Freelance - Remote
+                  Map Fintech - Remote
                 </span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  2022 - present
+                  May 2025 - Present
                 </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">
+                  GiftCard8 - Remote
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  Nov 2024 - May 2025
+                </div>
+              </div>
+            </div>
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Web Developer Intern</h3>
+                <span className="qualification__subtitle">
+                  Web3gle - Remote
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  Jul 2024 - Sept 2024
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
               </div>
             </div>
           </div>

@@ -9,21 +9,25 @@ const About = () => {
     <section className="about section" id="about">
       <h2 className="section__title">About Me</h2>
       <span className="section__subtitle">A short introduction</span>
+
       <div className="about__container container grid">
         <img src={AboutImg} alt="about" className="about__img" />
+
         <div className="about__data">
           <Info />
+
           <p className="about__description">
-            Versatile Full Stack Developer proficient in React.js and Spring
-            Boot, adept at seamlessly integrating front-end finesse with robust
-            back-end functionality. Passionate about crafting scalable and
-            innovative solutions that elevate user experiences and drive
-            technological excellence.
+            Backend-focused Software Engineer skilled in Java, Spring Boot, and
+            modern API development. I build scalable systems, automate
+            workflows, and deliver clean, production-ready solutions. Also
+            experienced with React and React Native for creating smooth user
+            experiences across web and mobile.
           </p>
+
           <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
-              class="button__icon"
+              className="button__icon"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
