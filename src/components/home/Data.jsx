@@ -17,7 +17,7 @@ const Data = () => {
         </svg>
       </h1>
 
-      <h3 className="home__subtitle">Java Backend & Full-Stack Developer</h3>
+      <h3 className="home__subtitle">Full-Stack Java Developer</h3>
 
       <p className="home__description">
         Backend-focused Software Engineer skilled in Java, Spring Boot, and
