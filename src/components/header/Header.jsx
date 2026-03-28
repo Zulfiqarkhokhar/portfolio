@@ -4,8 +4,8 @@ import {
   HiOutlineHome,
   HiOutlineUser,
   HiOutlineBadgeCheck,
-  HiOutlineClipboardList,
-  HiOutlinePhotograph,
+  // HiOutlineClipboardList,
+  // HiOutlinePhotograph,
   HiOutlineMail,
   HiX,
   HiOutlineMenu,
@@ -67,7 +67,7 @@ const Header = () => {
                 Skills
               </a>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
@@ -80,8 +80,8 @@ const Header = () => {
                 <HiOutlineClipboardList className="nav__icon" />
                 Services
               </a>
-            </li>
-            <li className="nav__item">
+            </li> */}
+            {/* <li className="nav__item">
               <a
                 href="#portfolio"
                 onClick={() => setActiveNav("#portfolio")}
@@ -94,7 +94,7 @@ const Header = () => {
                 <HiOutlinePhotograph className="nav__icon" />
                 Projects
               </a>
-            </li>
+            </li> */}
             <li className="nav__item">
               <a
                 href="#contact"
