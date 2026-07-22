@@ -135,10 +135,6 @@ const Qualification = () => {
             <div className="qualification__data">
               <div></div>
               <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
                 <h3 className="qualification__title">Frontend Developer</h3>
                 <span className="qualification__subtitle">
                   GiftCard8 - Remote
@@ -148,10 +144,18 @@ const Qualification = () => {
                   Nov 2024 - May 2025
                 </div>
               </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
             </div>
 
             <div className="qualification__data">
               <div>
+                <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
                 <h3 className="qualification__title">Web Developer Intern</h3>
                 <span className="qualification__subtitle">
                   Web3gle - Remote
@@ -160,10 +164,6 @@ const Qualification = () => {
                   <HiOutlineCalendar className="qualification__calendar-icon" />
                   Jul 2024 - Sept 2024
                 </div>
-              </div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
               </div>
             </div>
           </div>
