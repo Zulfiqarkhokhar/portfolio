@@ -101,13 +101,29 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
+                <h3 className="qualification__title">Webflow Designer / Developer</h3>
+                <span className="qualification__subtitle">
+                  Kreative Ally - Remote
+                </span>
+                <div className="qualification__calendar">
+                  <HiOutlineCalendar className="qualification__calendar-icon" />
+                  April 2026 - Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div>
                 <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
                   Map Fintech - Remote
                 </span>
                 <div className="qualification__calendar">
                   <HiOutlineCalendar className="qualification__calendar-icon" />
-                  May 2025 - Present
+                  May 2025 - Dec 2025
                 </div>
               </div>
               <div>
