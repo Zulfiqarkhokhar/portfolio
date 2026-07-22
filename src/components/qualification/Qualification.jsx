@@ -116,11 +116,12 @@ const Qualification = () => {
               </div>
             </div>
             <div className="qualification__data">
+              <div></div>
               <div>
-                <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+              <div>
                 <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
                   Map Fintech - Remote
@@ -151,11 +152,12 @@ const Qualification = () => {
             </div>
 
             <div className="qualification__data">
+              <div></div>
               <div>
-                <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
+              <div>
                 <h3 className="qualification__title">Web Developer Intern</h3>
                 <span className="qualification__subtitle">
                   Web3gle - Remote
